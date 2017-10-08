@@ -1,0 +1,17 @@
+
+Target:
+
+Quickly check if candidate can understand mongoDB spec and implement one method over mongo adapter
+
+Estimate time: 10 - 15 minutes
+
+Introduce mongoDB web site:
+
+general:
+https://docs.mongodb.com/manual/crud/
+
+python:
+http://api.mongodb.com/python/current/tutorial.html?_ga=2.74732501.691985361.1507486684-707461561.1506799964&_gac=1.211995168.1507486684.EAIaIQobChMI5vLHvdHh1gIVj1t-Ch2z-wwIEAAYASAAEgLexPD_BwE
+
+
+

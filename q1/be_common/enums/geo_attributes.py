@@ -1,0 +1,2 @@
+LNG = 'lng'
+LAT = 'lat'
