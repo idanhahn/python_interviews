@@ -1,0 +1,158 @@
+{
+    "based_on" : {
+        "source" : "spillman_incident",
+        "id_in_source" : "17H360034"
+    },
+    "time" : 1506877851.0,
+    "type" : "crash",
+    "user_assigned" : null,
+    "confidence" : 10,
+    "creation_time" : ISODate("2017-10-01T17:11:03.058Z"),
+    "is_assigned" : false,
+    "spillman_information" : {
+        "location_exist" : true,
+        "response_address" : "95/157; SB AT",
+        "contact" : {
+            "tel" : null,
+            "name" : null
+        },
+        "spillman_type" : "ACC MEDICAL PS",
+        "city_code" : "LAS",
+        "spillman_sub_type" : "ALL",
+        "responsible_unit_number" : "",
+        "spillman_priority" : "1",
+        "call_zone_code" : "HLK",
+        "spillman_status" : "RCVD"
+    },
+    "source" : "spillman_incident",
+    "section" : {
+        "id" : null,
+        "street" : "95/157; SB AT",
+        "section_pd_street_name" : "95/157",
+        "nhp_section_id" : null,
+        "type" : "auto_generated_section",
+        "road_type" : "highway",
+        "additional_info" : " SB AT",
+        "segment" : null,
+        "road_number" : 95,
+        "fast_section_id" : null,
+        "section_pd_additional_info" : " SB AT",
+        "related" : {
+            "dms_23" : {
+                "importance" : 100,
+                "state" : null,
+                "type" : "dms",
+                "color" : null,
+                "key" : "23"
+            }
+        }
+    },
+    "id_in_source" : "17H360034",
+    "user_id" : "waycare-system",
+    "raw" : {
+        "error" : false,
+        "type" : "road_incidents_nhp_live_lv",
+        "suspicious" : false,
+        "data" : {
+            "HowManyTimesTextChanged" : "1",
+            "StatusCodeOfCall" : "RCVD",
+            "GeobaseAddressID" : "16453",
+            "Disposition" : "PEN",
+            "DispatchLevelStatus" : "0",
+            "CADMasterCallTable" : {
+                "GeobaseAddressID" : "16453",
+                "PersonToContact" : "",
+                "CallNature" : "ACC MEDICAL PS",
+                "TimeDateOccurredLatest" : "10:10:51 10/01/2017",
+                "CallTaker" : "Alexander T R",
+                "CallPriority" : "",
+                "TimeDateOccurredEarliest" : "10:10:51 10/01/2017",
+                "RecordNumber" : "17H360034",
+                "TimeDateReported" : "10:10:51 10/01/2017",
+                "CityCode" : "LAS",
+                "ComplainantNameNumber" : "",
+                "HoldUntilTimeDate" : "",
+                "DirectionsNumber" : "",
+                "CallTypeLawFireEMS" : "l",
+                "HowReceived" : "T",
+                "CallReceived" : "Y",
+                "RespondToAddress" : "95/157; SB AT",
+                "PersonToContactPhone" : ""
+            },
+            "ResponsibleUnitNumber" : "",
+            "PlateNumberOfStoppedVeh" : "",
+            "TimeoutHasExpired" : "1",
+            "XCoordinateGeobase" : "-115312378",
+            "CityCode" : "LAS",
+            "MainRadioLogTable" : [
+                {
+                    "AgencyCode" : "NHPS",
+                    "TimeDateOfEntry" : "10:11:11 10/01/2017",
+                    "SequenceNumber" : "1",
+                    "TenCode" : "ENRT",
+                    "GeoYCoordinateOfUnit" : "36257235",
+                    "UnitZoneCode" : "HLK",
+                    "Shift" : "DPS INDIAN SPRG",
+                    "Description" : "Enroute to a Call call=346l",
+                    "CallType" : "l",
+                    "UnitNumber" : "H6528",
+                    "GeoXCoordinateOfUnit" : "-115643533",
+                    "LongTermCallID" : "17H360034",
+                    "UserWhoLoggedCall" : "Cintas H M"
+                },
+                {
+                    "AgencyCode" : "NHPS",
+                    "TimeDateOfEntry" : "10:11:22 10/01/2017",
+                    "SequenceNumber" : "1",
+                    "TenCode" : "CMPLT",
+                    "GeoYCoordinateOfUnit" : "36257235",
+                    "UnitZoneCode" : "HLK",
+                    "Shift" : "DPS INDIAN SPRG",
+                    "Description" : "Reassigned to call 347l, completed call 346l",
+                    "CallType" : "l",
+                    "UnitNumber" : "H6528",
+                    "GeoXCoordinateOfUnit" : "-115643533",
+                    "LongTermCallID" : "17H360034",
+                    "UserWhoLoggedCall" : "Cintas H M"
+                }
+            ],
+            "DirectionsNumber" : "",
+            "YCoordinateGeobase" : "36327678",
+            "IncidentNature" : "ACC MEDICAL PS",
+            "HighBitsOfXCoordinate" : "-56305",
+            "AgencyCode" : "NHPS",
+            "WhenTimeoutWillExpire" : "10:41:12 10/01/2017",
+            "CallZoneCode" : "HLK",
+            "PlateStateAbbreviation" : "",
+            "RelatedRecordNumber" : "",
+            "LongTermCallID" : "17H360034",
+            "CallNumber" : "346",
+            "ClearanceCodeLawOnly" : "",
+            "CallPriority" : "1",
+            "HoldUntilTimeDate" : "",
+            "TimeDateReported" : "10:10:51 10/01/2017",
+            "WhenCallWasOpened" : "10:10:51 10/01/2017",
+            "WhenStatusDeclared" : "10:11:11 10/01/2017",
+            "CallTypeLawFireEMS" : "l",
+            "RespondToAddress" : "95/157; SB AT"
+        },
+        "date_time" : "01_10_2017_17_11_30 UTC"
+    },
+    "location" : {
+        "coordinates" : [
+            -115.312378,
+            36.327678
+        ],
+        "type" : "Point"
+    },
+    "detection" : true,
+    "last_update" : ISODate("2017-10-01T17:11:32.215Z"),
+    "incident_state" : "unconfirmed",
+    "id" : "bc09cae4-e937-5126-8317-6962bd5d3f97",
+    "reliability" : 10,
+    "subtype" : "ACCIDENT_MAJOR",
+    "is_deleted" : false,
+    "report_type" : "from-spillman",
+    "camera_feed" : null
+}
+
